@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | kowshick</title>
+</head>
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section aria-labelledby="contact-heading">
+
+<h2 id="contact-heading">Get in Touch</h2>
+
+<form action="#" method="post" aria-label="Contact Form">
+<table>  
+    <tr> 
+       <td> <div>
+        <label for="name">Full Name</label>
+         </div> </td>
+      <td> <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            aria-required="true">
+   </td>
+    </tr> 
+
+    <tr>
+
+   <td> <div>
+        <label for="email">Email Address</label> </div></td>
+       <td> <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            aria-required="true"></td>
+   
+</tr>
+
+<tr>
+    <td>
+    <div>
+        <label for="subject">Subject</label> </div></td>
+      <td>  <input
+            type="text"
+            id="subject"
+            name="subject"
+            required
+            aria-required="true"></td>
+   
+</tr>
+
+<tr>
+    <td>
+    <div>
+        <label for="message">Message</label>
+         </div>
+         </td>
+      
+      <td>  <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            aria-required="true"></textarea>
+      </td> 
+</tr>
+<tr>
+   <td><button type="submit">
+        Send Message
+    </button>
+    </td> 
+    </tr>
+</table>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 kowshick</p>
+</footer>
+
+</body>
+</html>
